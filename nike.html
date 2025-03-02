@@ -1,0 +1,89 @@
+  <!-- Index.html-->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Mi Universo Virtual" />
+    <meta name="author" content="Raquel Martínez" />
+
+    <title>Landing Page / Test A / B - Raquel </title>
+    <link rel="icon" href="assets/logoicono/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;800&display=swap" />
+    <link rel="stylesheet" href="nike.css" />
+  </head>
+
+  <body>
+    <div class="main-container">
+        <nav class="main-navigation">
+
+          <div class="menu" id="barra-menu">
+             <div class="logo" data-scroll-to="logo">
+               <a href="#"><img src="assets/nike/nike.png"></a>
+              </div>
+              <ul>
+            <li><a class="" href="#">Nosotros</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#"><img class="barrita-menu" src="./assets/filter.svg"></a></li>
+          </ul>
+        </div>
+        
+        </nav>
+
+      <main class="frameContainer"  data-scroll-to="about-container">
+        <section id="about" class="about-section">
+
+          <div class="about-container">
+            <div class="about-img" aria-hidden="true">
+              
+             </div>
+                 <div class="about-wrapper">
+                <p class="section-title">¡Deportivas Nike Edición Especial y limitada!</p>
+            <p>En Nike, <span class="subtitulo">somos conscientes de tu comodidad y bienestar</span>. Por eso necesitas estas Nike.
+            <div class="proyectazos">
+            <div class="projects">
+</div>
+</div>
+</div>
+  <div class="project-section">
+
+  <div class="project-box">
+  <p class="project-title">Inscríbete a nuestra comunidad colaborativa </p>
+              <img  class="project-img" src="assets/CabañitApp/reunion.png">
+                <p>Tenemos una comunidad en la que, al inscribirte, <span class="userDescription">puedes tener distintas aclaraciones entre los clientes convivientes y los expertos</span></p>
+        </div>
+ 
+    </div>
+</div>
+<div class="project-section app" data-scroll-to="app">
+  <div class="project-box">
+    <div class="project-img" aria-hidden="true">
+      <img  class="project-img" src="">
+      <a href="https://www.figma.com/proto/qUv5k6RpH1Kvvu3FqH8YUa/Test-A%2FB-y-Multivariante_Raquel?node-id=7-1260&t=A4xHYiPw60Cn4AYZ-1"><div class="project-link">¡Mira nuestras nuevas zapatillas</div>
+        </div>
+ 
+    </div>
+</div>
+  </p></div></section>
+</main>
+<footer>
+  <p>&copy Raquel Martínez </p></footer>
+</div>
+ <script>
+        var menu = document.getElementById("barra-menu");
+        if(menu){
+          menu.addEventListener("click",function(){
+            var opcionesMenu= document.querySelector("[data-scroll-to='app']");
+            if(opcionesMenu){
+              opcionesMenu.scrollIntoView({"block": "start", "behavior":"smooth"});
+        }
+        
+      });
+  }
+  
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,395 @@
+/* Estilos globales*/
+
+*{
+  margin: 0 ;
+  padding:0 ;
+  background-blend-mode:overlay;
+  background-position: center;
+  transform-box:80%stroke-box;
+animation-fill-mode: backwards; 
+ translate:max(50, 100);
+  scroll-margin-top: 20% !important;
+  scroll-timeline: vertical 50000ms;
+  scrollbar-gutter: stable always;
+
+
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height:4.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Contenedor principal */
+.main-container {
+  margin:10 ;
+  padding:10;
+  display: flex;
+  flex-direction: column;
+  top: 33.88rem;
+
+   background-attachment: fixed;
+   background-position: center;
+   background-clip: 100% content-box;
+   overflow-clip-box:  100% padding-box;
+   letter-spacing:0.0009em;
+   text-rendering: 100% optimizeSpeed;
+}
+
+/* Encabezado y navegación */
+.main-container .main-navigation {
+  color:#000;
+  display: flex;
+  flex-flow:row nowrap ;
+  max-width:100%;
+   bottom:80.04rem;
+
+
+}
+.main-navigation .menu{
+  display: flex;
+  flex-flow:row wrap;
+  justify-content: space-between;
+  margin: auto;
+  padding: 0 auto;
+  width: 100%;
+  margin-top: 1.08rem;
+  position: static;
+  grid-column: 100%;
+}
+
+
+.main-navigation .menu ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:space-between;
+  gap: 4.4em;
+  margin-trim: 100% in-flow;
+  text-emphasis: 100% transparent;
+}
+
+.main-navigation .menu  li {
+  list-style: none;
+}
+
+.main-navigation .menu  a {
+  color:#CC2269;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+  margin-top: 0.28rem;
+
+  margin-trim:100% all;
+
+}
+
+.main-navigation .menu .logo {
+ min-width:100px;
+  display: flex;
+    margin-top: 0.000rem;
+  
+  margin-trim:100% all;
+}
+.main-navigation .menu .logo img {
+width:100%;
+  display: flex;
+  justify-content:space-between;
+  margin:0px 0px;
+  padding: 0px;
+
+
+}
+.main-navigation  .menu a:hover {
+  color:#000c78;
+}
+
+/* Sección sobre mí */
+.about-section {
+  display: flex;
+  flex-direction: column;
+  grid-auto-flow: 100% dense;
+  margin: 40 auto;
+  padding: 20px 40px;
+  text-align:left;
+}
+
+.about-container {
+  display: flex;
+flex-direction: column;
+  box-flex:100%;
+  position: relative;
+ margin-top: -2.8rem;
+  align-content: center;
+  overflow:visible;
+  margin: 40px auto;
+  padding: 40px auto;
+}
+.proyectazos {
+  max-width: 70%;
+  display: flex;
+flex-direction: row;
+flex-flow: row wrap;
+  box-flex:100%;
+  position: relative;
+ margin-left: -2.8rem;
+ margin-right: -2.8rem;
+  align-content: space-between;
+  overflow:visible;
+  margin: 0px auto;
+  padding: 0px auto;}
+.about-img {
+  width: 100%;
+  max-width: 50%;
+  height: 240px;
+  background:url("./assets/logo.png");
+  background-color: #ffccf478;
+  border-radius: 17px;
+  border: 0.02em solid whitesmoke;
+  margin: 0px auto ;
+  padding:0px auto;
+  overflow-wrap: 100% break-word;
+  align-self:normal;
+}
+.servicios{
+  width: 100%;
+  margin-bottom: 18px;
+  margin-top:36px;
+  text-overflow: 100%;
+  align-content:center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-wrapper {
+  min-width:5.0rem;
+  margin:0px auto;
+  padding: 0px auto;
+  margin-trim: 100% all;
+  scroll-margin-block: 30px auto;
+
+}
+
+.about-wrapper ul {
+width: 100%;
+  margin:20px auto;
+  padding:20px auto;
+}
+
+.about-wrapper li{
+  width: 100%;
+max-width:100%;
+list-style:lower-norwegian;
+margin: 20 auto;
+padding: 20 auto;
+}
+
+
+
+.section-title {
+  font-size: 2rem;
+  margin:30px auto;
+  padding:0px auto; 
+  text-justify:kashida;
+  color: #000;
+  font-weight: 600;
+ text-orientation: sideways;
+ text-align:center;
+ justify-content:center;
+ display: flex;
+}
+
+
+
+/* Sección de proyectos */
+.project-section {;
+  margin: 0px auto ;
+  padding: 0px 20px ;
+
+  flex-flow:column nowrap;
+  overflow-wrap: 100% break-word;
+  align-content:center;
+}
+
+.project-box {
+align-content:center;
+  padding:0px 0px;
+  margin: 8px 16px;
+  max-width:90%;
+  display: flex;
+  flex-flow: column nowrap;
+  text-emphasis: 100% white;
+  box-flex: 100%;
+   overflow-wrap:100% break-word;
+   overflow-anchor: 100% auto;
+   border-collapse: 100% collapse;
+}
+
+.project-title {
+  font-size: 1.5rem;
+  text-justify:inter-character;
+  text-align: center;
+  color: #000478;
+  font-weight: 600;
+
+   }
+
+
+
+.project-link{
+  font-family:"Poppins",sans-serif;
+  background-color:#ffff ;
+  border: 1.15px solid #fff;
+   color:#000;
+   opacity: 0.88;
+
+  padding: 0.25rem 0.25rem;
+  border-radius: 0.25em;
+  font-size: 0.8rem;
+  transition: background-color 1.17s;
+  letter-spacing: 0.06px;
+  font-synthesis-weight: 20px;
+  text-anchor: 100% middle end;
+  text-align: center;
+
+}
+
+.subtitulo{
+color:#000478;
+font-weight: 600;
+font-size:1.50;
+}
+.userDescription{
+  color:#CC2269;
+  font-weight:700 ;
+
+}
+.project-description{
+  color:#004c78;
+  font-weight:500 ;
+  text-indent: 100% each-line;
+
+}
+.project-link:hover {
+  background-color:#CC2268;
+  color:#ffff ;
+  border-radius: 0.25em;
+  font-size: 0.8rem;
+  transition: background-color 1.7s;
+  letter-spacing: 0.06px;
+  font-synthesis-weight: 80% auto;
+
+}
+
+.project-img {
+  width: 240px;
+  min-width: 25%;
+  background-color:#000475;
+  margin-top: 1.25rem;
+  overflow-wrap: 100% break-word;
+
+  border-radius: 15px;
+  text-emphasis: 150rem transparent;
+}
+
+/* Sección de contacto */
+.contact-section {
+  background-color: #f4f4f4;
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-info p {
+  font-size: 1.1rem;
+  color: #444;
+  margin: 1rem 0;
+}
+
+.email a {
+  color: #f5a623;
+  transition: color 0.3s;
+}
+
+.email a:hover {
+  color: #d4891e;
+}
+
+.phone, .linkedin {
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.linkedin a {
+  color: #0077b5;
+  transition: color 0.3s;
+}
+
+.linkedin a:hover {
+  color: #005f8c;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 1rem;
+  margin-top: auto;
+}
+
+.footer-content p {
+  font-size: 1rem;
+}
+
+/* Responsividad */
+@media(width:800px){
+  .main-navigation ul {
+  
+    flex-direction:column;
+    gap: 2.8em;
+    display: flex;
+
+
+ 
+  .about-section {
+    padding: 1rem 1rem;
+  }
+
+  .about-wrapper {
+    max-width: 100%;
+  }
+.proyectazos{
+  display: flex;
+  justify-content:space-around;
+  flex-flow:column wrap;
+}
+  .project-box {
+    flex-flow: column wrap;
+    max-width: 80%;
+    }
+
+  .project-img {
+    width: 80%;
+    max-width: 40%;
+  }
+
+  .contact-info p {
+    font-size: 1rem;
+    font-smooth: always 100%;
+  }
+
+  .contact-info {
+    align-items: center;
+  }
+}
+
+

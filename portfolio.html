@@ -1,0 +1,125 @@
+  <!-- Index.html-->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio de Raquel Martínez,diseñadora ux ui " />
+    <meta name="author" content="Raquel Martínez" />
+
+    <title>Raquel Martínez - Diseñadora Ux Ui | Web Portfolio</title>
+    <link rel="icon" href="assets/logoicono/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;800&display=swap" />
+    <link rel="stylesheet" href="portfolio.css" />
+  </head>
+
+  <body>
+    <div class="main-container">
+        <nav class="main-navigation">
+
+          <div class="menu" id="barra-menu">
+             <div class="logo" data-scroll-to="logo">
+               <a href="#"><img src="../assets/user.png"></a>
+              </div>
+              <ul>
+            <li><a class="#" href="">Proyectos</a></li>
+            <li><a href="../assets/CV RAQUEL MARTÍNEZ UX UI PRODUCT DESIGNER.pdf">CV</a></li>
+            <li><a href="#"><img class="barrita-menu" src="./assets/filter.svg"></a></li>
+          </ul>
+        </div>
+        
+        </nav>
+
+      <main class="frameContainer">
+        <section id="about" class="about-section">
+
+          <div class="about-container">
+            <div class="about-img" aria-hidden="true">
+              <img class="about-img" src="./assets/aboutme.svg">
+             </div>
+                 <div class="about-wrapper">
+                
+              <p class="section-title">¡Hola! Soy Raquel </p><br>
+                <div class="servicios">
+                  <br>
+            <ul>
+                <p class="subtitulo">Las habilidades que puedo ofrecer son...</p>
+                <li>
+                  <p class=""><span class="subtitulo">Proactividad y resiliencia,</span> para afrontar nuevos retos con cada proyecto.</p></li>
+                  <li>
+                  <p class= ""><span class="subtitulo">Sensibilidad y respeto, con cada idea y esencia del producto/servicio</span> que se quiera prestar.</p></li>
+                  <li><p class=""><span class="subtitulo">Ganas de aprender, crecer y mejorar cada día,</span> tanto profesional como personalmente.</p></li>
+                  <li><p class=""><span class="subtitulo">Pasión por el diseño</span> y mejora del producto/servicio a conseguir.</p></li></ul>
+   
+                </div>
+              </div>
+                <!--<p class="about-text subtitulo">
+              Mi logo es una rosa roja , porque creo que representa bastante como soy, sensible (por fuera) y,  fuerte (por dentro).
+            Apasionada por conectar con la gente a través del arte, siempre intentando buscar con resiliencia y positividad.</p>!-->
+            <div class="proyectazos">
+          <br><br><br>
+            <div class="projects" data-scroll-to="projects">
+              <br>
+
+</div>
+
+
+         <section id="project" class="project-section">
+          <div class="project-box">
+            <p class="project-title"> CabañitApp </p>
+            <div class="project-img" aria-hidden="true">
+                <img class="project-img" src="./assets/iphone16.svg">
+               <a href="cabañitApp.html">
+                   <div class="project-link"><p>¡Mira este proyecto!</p></div>
+               </a>
+             </div>
+          </div>
+        </section>
+ <section id="project2" class="project-section">
+          <div class="project-box"> 
+            <p class="project-title"> Test A / B </p>
+            <div class="project-img" aria-hidden="true">
+                <img class="project-img" src="./assets/macbook.svg">
+               <a href="../proyectoii/index.html">
+                <div class="project-link"><p>¡Mira este proyecto!</p></div></a>
+             </div>
+
+          </div>
+
+        </section>
+ <section id="project2" class="project-section">
+          <div class="project-box"> 
+            <p class="project-title">Mi Universo Virtual</p>
+            <div class="project-img" aria-hidden="true">
+                <img class="project-img" src="./assets/Realme 10.png">
+               <a href="#">
+                <div class="project-link"><p>¡Mira este proyecto!</p></div></a>
+             </div>
+
+          </div>
+
+        </section>
+</div>
+</section>
+
+</main>
+<footer>
+  <p>&copy Raquel Martínez </p></footer>
+</div>
+ <script>
+        var menu = document.getElementById("barra-menu");
+        if(menu){
+          menu.addEventListener("click",function(){
+            var opcionesMenu= document.querySelector("[data-scroll-to='projects']");
+            if(opcionesMenu){
+              opcionesMenu.scrollIntoView({"block": "start", "behavior":"smooth"});
+        }
+        
+      });
+  }
+  
+
+
+    </script>
+</body>
+</html>
